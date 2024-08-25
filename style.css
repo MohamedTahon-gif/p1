@@ -1,0 +1,100 @@
+/* Reset margins and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensure padding and border are included in the width and height */
+}
+
+/* Body styles */
+body {
+    background-color: greenyellow; /* Set background color to black */
+    font-family: 'Arial', sans-serif;
+}
+
+/* Main container styles */
+div.main {
+    width: 100%;
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: rgba(212, 191, 221, 0.521); /* Light background for main container */
+    border-radius: 12px; /* Rounded corners */
+}
+
+/* Heading styles */
+h2 {
+    text-align: center;
+    padding: 20px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff; /* Text color for better contrast on black background */
+}
+
+/* Label styles */
+label {
+    font-family: fantasy;
+    font-size: initial;
+    display: block;
+    margin-bottom: 10px;
+    color: #ffffff; /* Text color for better contrast on black background */
+}
+
+/* Input styles */
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: rgba(145, 123, 201, 0.356); /* Background color for inputs */
+    color: #ffffff; /* Text color for better contrast */
+}
+
+/* Radio and checkbox styles */
+.radio-group,
+.checkbox-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Space between items */
+    margin-bottom: 20px;
+}
+
+.checkbox-group {
+    flex-wrap: wrap; /* Allow wrapping of checkboxes */
+    justify-content: flex-start; /* Align items to the start */
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+/* Label styles for checkboxes */
+.checkbox-group label {
+    margin-right: 20px; /* Space between checkboxes */
+    white-space: nowrap; /* Prevent labels from wrapping */
+    color: #ffffff; /* Text color for better contrast */
+}
+
+/* Submit button styles */
+input[type="submit"] {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin: 20px auto 0;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
